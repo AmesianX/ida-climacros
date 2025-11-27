@@ -21,6 +21,8 @@ ida_add_plugin(climacros
         README.md
     OUTPUT_NAME
         climacros
+    METADATA_JSON
+        ida-plugin.json
     DEBUG_ARGS
         "-t"
 )

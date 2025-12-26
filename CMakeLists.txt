@@ -3,7 +3,7 @@ project(climacros)
 set(CMAKE_CXX_STANDARD 20)
 
 # Include IDA SDK bootstrap
-include($ENV{IDASDK}/ida-cmake/bootstrap.cmake)
+include($ENV{IDASDK}/cmake/bootstrap.cmake)
 find_package(idasdk REQUIRED)
 
 # Add idacpp library
